@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd kiwiilove-app && npm install && npm run build",
+  "outputDirectory": "kiwiilove-app/dist",
+  "installCommand": "cd kiwiilove-app && npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
